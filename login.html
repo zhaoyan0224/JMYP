@@ -1,0 +1,89 @@
+<!-- 登录注册页面 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册登录</title>
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/public.css">
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+
+<body>
+    <div id="header_container">
+        <div id="logo">
+            <a href="#" id="home" title="聚美优品"
+                style="background:url(  https://f4.jmstatic.com/static_passport/dist/v1.0.137928/images/logo_new_v1.jpg ) no-repeat top left;"></a>
+            <div class="header_logo_box">
+                <a href="#" class="top_link lightning" ></a>
+                <a href="#" class="top_link gild"></a>
+                <a href="#" class="top_link credit"></a>
+            </div>
+        </div>
+    </div>
+    <!-- 表单验证 start-->
+    <div class="info userinfo container">
+      <div class="panel panel-success">
+        <div class="panel-heading">用户登录</div>
+        <!-- 面板身体 -->
+        <div class="panel-body">
+          <!--!!! 在这里加上一个span 信息 当我提交用户名和密码不正确的时候 显示出来；它默认是隐藏的 -->
+          <span class="login_error hide">用户名或密码错误!</span>
+          <form class="col-sm-11" id="login">
+            <div class="form-group">
+              <label for="username">用户名: </label>
+              <input type="text" name="username" class="form-control" autocomplete="off" id="username" placeholder="请填写用户名">
+            </div>
+            <div class="form-group">
+              <label for="password">密 码: </label>
+              <input type="text" name="password" class="form-control" autocomplete="off" id="password" placeholder="请填写密码">
+            </div>
+            <button type="submit" class="login btn btn-success col-sm-5">登录</button>
+            <button type="button" class="register pull-right btn btn-warning col-sm-5">注册</button>
+          </form>
+        </div>
+      </div>
+    </div>
+      <!-- 表单验证 end-->
+
+     <!-- 网站底部 start-->
+     <div id="footer_container">
+      <div id="footer_textarea">
+          <div class="footer_con" id="footer_copyright">
+              <p class="footer_copy_con">
+                  © 2013 北京创锐文化传媒有限公司 Jumei.com 保留一切权利。客服热线：400-123-8888 <br>
+                  京公网安备 11010102001226 | <a href="http://www.miibeian.gov.cn" target="_blank" rel="nofollow"style="color:black">
+                    京ICP证111033号</a> | <a href="http://f0.jmstatic.com/btstatic/pc_static/food_pic.jpg" target="_blank" rel="nofollow">
+                      食品流通许可证 SP1101051110165515（1-1）</a>
+                  | <a href="http://p2.jmstatic.com/activity/2013_chuangrui.jpeg" target="_blank">营业执照</a>
+              </p>
+              <p>
+                  <a href="#" class="footer_copy_logo logo01"></a>
+                  <a href="#" target="_blank" class="footer_copy_logo logo02"></a>
+                  <a href="#" class="footer_copy_logo logo03"></a>
+                  <a href="#" class="footer_copy_logo logo04"></a>
+                  <a href="#" target="_blank" class="footer_copy_logo logo05"></a>
+              </p>
+          </div>
+      </div>
+  </div>
+    <!-- 网站底部end -->
+
+    
+    <!-- 引入插件 -->
+    <script src="./assets/jquery/jquery.min.js"></script>
+    <script src="./assets/jquery-validation/jquery.validate.min.js"></script>
+    <script src="./assets/jquery-validation/localization/messages_zh.js"></script>
+    <script src="./js/public.js"></script>
+    <script src="./js/login.js"></script>
+    <script>
+
+
+
+    </script>
+
+</body>
+
+</html>

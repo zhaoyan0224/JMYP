@@ -1,0 +1,158 @@
+body {
+    font-family: Tahoma,Geneva,sans-serif;
+}
+#logo {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#header_container {
+    min-width: 960px;
+    height: 150px;
+    background:#fff;
+    
+}
+#logo #home {
+    width: 360px;
+    height: 85px;
+    overflow: hidden;
+    float: left;
+    font-size: 0;
+    line-height: 0;
+}
+#logo a {
+    color: #ed145b;
+}
+#logo .header_logo_box {
+    display: inline-block;
+    padding-top: 35px;
+    float: right;
+}
+#logo a.top_link{
+    background: url(../images/header_corn_new_v2.png) no-repeat top center transparent;
+}
+
+#logo a.lightning {
+    background-position: 0 -64px;
+}
+#logo a.gild {
+    background-position: 0 -30px;
+    
+
+}
+#logo a.top_link {
+    width: 110px;
+    height: 31px;
+    overflow: hidden;
+    margin-right: 24px;
+    float: right;
+}
+ 
+#logo a.credit {
+    background-position: 0 0;
+} 
+/* 登录 css */
+.info {
+    min-height: 500px;
+    padding: 0 23px;
+    width: 400px;
+    height: 500px;
+    color: #333;
+    margin-right: 150px;
+  }
+  .panel-success>.panel-heading {
+    color: #3c763d;
+    background-color:#ecf3e8;
+    border-color: #d6e9c6;
+}
+.btn-success {
+    color: #fff;
+    background-color:#f10180;
+    border-color:#f10180;
+}
+.btn:hover{
+    background-color:#f10180;
+}
+.btn-warning {
+    color: #fff;
+    background-color: #f10180;
+    border-color: #f10180;
+}
+.panel-success {
+    border-color: #dfdcdc;
+    box-shadow: 0 0 4px rgba(0,0,0,.075);
+    font-size: 15px;
+    background: rgba(255,255,255,.85);
+}
+.panel-heading {
+    border-bottom:none;
+}
+  
+  .info .login,
+  .info .register {
+    display: inline;
+  }
+  /* 增加css信息 */
+  input.error{
+    border:1px solid red;
+  }
+  label.error{
+    color:red;
+  }
+  .login_error{
+    color:red;
+  }
+ /* 尾部start */
+ #footer_container {
+    overflow: hidden;
+    width: 100%;
+    margin-top: 0;
+   
+}
+#footer_copyright {
+    text-align: center;
+    line-height: 20px;
+    padding-bottom: 20px;
+    color: #000;
+}
+.footer_con {
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden；
+}
+#footer_copyright .footer_copy_con {
+    padding: 10px 0;
+}
+#footer_copyright  a {
+    color: #333;
+}
+
+#footer_copyright .logo01 {
+    background-position: 0 -168px;
+}
+#footer_copyright .footer_copy_logo {
+    width: 127px;
+    height: 50px;
+    overflow: hidden;
+    border-bottom: 1px solid #d7d7d7;
+    display: inline-block;
+    margin: 0 4px;
+}
+.footer_copy_logo {
+    background: url(../images/header_corn_new.png) no-repeat top center transparent;
+}
+#footer_copyright .logo02 {
+    background-position: 0 -219px;
+}
+#footer_copyright .logo03 {
+    background-position: 0 -270px;
+}
+#footer_copyright .logo01, #footer_copyright .logo03, #footer_copyright .logo04 {
+    cursor: default;
+}
+#footer_copyright .logo04 {
+    background-position: 0 -321px;
+}
+#footer_copyright .logo05 {
+    background-position: 0 -372px;
+}

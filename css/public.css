@@ -1,0 +1,51 @@
+ /* .style-red{
+    color:red;
+} */
+body {
+    font-size: 12px;
+}
+html {
+    color: #000;
+    background: #fff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.w{
+    width: 1090px;
+    margin: 0 auto;
+}
+/* 默认间距清除 */
+body,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,input,button,p{
+	margin: 0;
+	padding: 0;
+}
+/* a的下划线 */
+a{
+	text-decoration: none;
+}
+a:hover{
+     color: #f51b1b;
+}
+/* 列表小点清除 */
+li{
+	list-style: none;
+}
+/* 清除input和button默认带的边框和点击之后的边框 */
+input,button{
+	border: 0;
+	outline: none;
+}
+/* 斜体变不斜体 */
+i{
+    font-style:normal;
+}
+.hide
+.none{
+    display:none;
+}
+a, a:hover, a:active, a:link, a:target {
+    text-decoration: none;
+  }

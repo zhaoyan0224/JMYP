@@ -1,0 +1,333 @@
+/* 头部start */
+.head_top{
+    width: 100%;
+    height: 28px;
+    line-height: 28px;
+    background-color: #f2f2f2;
+}
+
+.fl {
+    float: left;
+    font-size:14px;
+    color:#999;
+}
+.fl  li  a{
+    color:#999;
+  }
+  .fl  li > a:hover{
+    color:red;
+  }
+   
+.fr{
+    float: right;
+    font-size:14px;
+}
+.head_top li{
+    float: left;
+}
+.fr li{
+    margin-left: 14px;
+  
+}
+.fr  li  a{
+  color:#999;
+}
+
+.fr >li:nth-child(4){
+    padding-left: 10px;
+    padding-right: 18px;
+    background:url(../images/jt.png) no-repeat right center;
+}
+.fr .mobile a{
+    color: #ed155b;
+}
+.fr .mobile .line1 {
+    width: 1px;
+    height: 14px;
+    float: left;
+    margin: 7px 12px 0 0;
+    background: #ddd;
+    /* overflow: hidden;
+    padding: 0; */
+} 
+.fr .line{
+    width: 1px;
+    height: 14px;
+    margin: 7px 12px 0 0;
+    margin-left: 14px;
+    background: #ddd;
+}
+.fr .fr_nav{
+    width: 105px;
+    background-color:pink;
+    position: absolute;
+    top: 29px; 
+    right:238px;
+    /* z-index: 9999; */
+    background: #fff;
+    padding: 8px 0;
+     border-top: 0; 
+     box-shadow: 1px 3px 5px rgba(0,0,0,.2);
+    display: none;
+    }
+
+.fr_nav a{
+    font-size:13px;
+    color:rgb(153, 153, 153);
+}
+.more_list{
+    width: 100px;
+    height: 260px;
+    background: #fff;
+    border: 1px solid #ddd;
+    position: absolute;
+    top: 27px;  
+    right:85px; 
+    z-index:888;
+    padding: 8px 0;
+    border-top: 0; 
+    box-shadow: 1px 3px 5px rgba(0,0,0,.2);
+    display: none;
+    
+}
+.more_list a{
+    font-size: 13px;
+}
+.more_list li:hover a{
+    color:red;
+}
+ .item_more:hover .more_list {
+     display:block;
+
+ }
+ .fr > ul > li >a:hover{
+     color:red;
+ }
+    
+
+.fr_navBox:hover .fr_nav{
+    display: block;
+    transition: 1s linear;
+}
+
+.head_w .global_logo{
+    width: 250px;
+    height: 88px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-image: url(//a1.global.jmstatic.com/c3a6d73c1350f916/home_logo.png);
+}
+.accountBox{
+    float: right;
+    margin-top: 30px;
+    width: 60%;
+}
+.cartBox{
+    width: 166px;
+    height: 32px;
+    position: relative;
+    float: right;
+    z-index: 4;
+}
+.cartBox .cart_box{
+    background: url(//a3.global.jmstatic.com/d0c5a0102ee9da0d/maincart.png) top left no-repeat;
+    color: #565656;
+    font-size: 13px;
+    font-family: "宋体";
+    display: inline-block;
+    width: 166px;
+    height: 32px;
+}
+.cartBox .cart_box .cart_logtext{
+    line-height: 32px;
+    padding-left: 45px;
+}
+
+
+
+
+
+/* 头部end */
+
+
+/* 详情页内容 start */
+.content {
+    margin: 30px auto;
+  }
+  
+  .goodsDetail {
+    width: 100%;
+    height: 500px;
+    display: flex;
+  }
+  
+  .goodsDetail > .enlargeBox {
+    width: 400px;
+    height: 100%;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #333;
+  }
+  
+  .goodsDetail > .enlargeBox > .show {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    border-bottom: 1px solid #333;
+    overflow: hidden;
+    border-right: 1px solid #333;
+  }
+  .goodsDetail > .enlargeBox > .show > .mask {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, .5);
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    pointer-events: none;
+
+    display: none;
+  }
+  .goodsDetail > .enlargeBox > .show img{
+   width: 100%;
+   height: 100%;
+  }
+  
+  .goodsDetail > .enlargeBox > .list {
+    flex: 1;
+    box-sizing: border-box;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .goodsDetail > .enlargeBox > .list > p {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+    margin-bottom: 0;
+    border: 1px solid #333;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .goodsDetail > .enlargeBox > .list > p img{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .goodsDetail > .enlargeBox > .list > p.active {
+    border-color: red;
+  }
+  /* 以下补充放大镜盒子start */
+  .goodsDetail > .enlargeBox > .enlarge {
+    width: 400px;
+    height: 400px;
+    /* border: 1px solid red; */
+    position: absolute;
+    left:40%;
+    top:151px;
+    background-repeat: no-repeat;
+    background-size: 800px 800px;
+    background-position: 0 0;
+    display: none;
+    z-index: 1;
+  }
+    /* 补充放大镜盒子end */
+  
+  .goodsDetail > .goodsInfo {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 30px;
+  }
+  
+  .goodsDetail > .goodsInfo > .desc {
+    font-size: 20px;
+  }
+  
+  .goodsDetail > .goodsInfo > .price {
+    font-size: 18px;
+  }
+  
+  .goodsDetail > .goodsInfo > .price > span {
+    font-size: 30px;
+  }
+  
+  .goodsDetail > .goodsInfo > .num {
+    display: flex;
+  }
+  
+  .goodsDetail > .goodsInfo > .num > button {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .goodsDetail > .goodsInfo > .num > input {
+    height: 43px;
+    width: 75px;
+    text-align: center;
+    border: none;
+  
+  }
+/* 底部 */
+  #footer_container {
+    overflow: hidden;
+    width: 100%;
+    margin-top: 0;
+    background-color:#f2f2f2 ;
+   
+}
+#footer_copyright {
+    text-align: center;
+    line-height: 20px;
+    padding-bottom: 20px;
+    color: #000;
+}
+.footer_con {
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden；
+}
+#footer_copyright .footer_copy_con {
+    padding: 10px 0;
+}
+#footer_copyright  a {
+    color: #333;
+}
+
+#footer_copyright .logo01 {
+    background-position: 0 -168px;
+}
+#footer_copyright .footer_copy_logo {
+    width: 127px;
+    height: 50px;
+    overflow: hidden;
+    border-bottom: 1px solid #d7d7d7;
+    display: inline-block;
+    margin: 0 4px;
+}
+.footer_copy_logo {
+    background: url(../images/header_corn_new.png) no-repeat top center transparent;
+}
+#footer_copyright .logo02 {
+    background-position: 0 -219px;
+}
+#footer_copyright .logo03 {
+    background-position: 0 -270px;
+}
+#footer_copyright .logo01, #footer_copyright .logo03, #footer_copyright .logo04 {
+    cursor: default;
+}
+#footer_copyright .logo04 {
+    background-position: 0 -321px;
+}
+#footer_copyright .logo05 {
+    background-position: 0 -372px;
+}
+
+  
+ 
